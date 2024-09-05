@@ -1,0 +1,72 @@
+
+.conteudo-planos{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-grow: 1;
+    padding-bottom: 80px;
+}
+
+.titulo_planos{
+    font-size: 60px;
+    color: #1f2958;
+    align-items: center;
+    border-bottom: 2px solid #1f2958;
+    padding: 40px;
+}
+
+.kids, .teen, .adult{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kids img{
+    margin-left: 30px;
+}
+
+.adult img{
+    margin-left: 50px;
+}
+
+.teen img{
+    margin-left: 20px;
+}
+
+
+.planos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card{
+    width: 330px;
+    padding: 20px;
+    border: 3px solid #1f2958;
+    border-radius: 15px;
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.card h1{
+    color: #1f2958;
+    font-size: 40px;
+}
+
+.card p{
+    margin-bottom: 20px ;
+    border-bottom: 2px solid #1f2958;
+}
+
+.card ul{
+    padding-left: 20px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}

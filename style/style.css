@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(./style_curos.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.cabecalho{
+    position: fixed;
+    height: 120px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem-menu {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os itens do menu */
+}
+
+.menu-conteudo{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.telefone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 2px solid #00FF00; /* Cor da borda */
+    border-radius: 10px; /* Bordas arredondadas */
+    position: fixed;
+    right: 40px; /* Espaçamento da parte direita da tela */
+    background-color: #fff; /* Fundo branco opcional */
+}
+
+.telefone a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.telefone nav :hover{
+    color: #FF6347; 
+    text-decoration: underline;
+
+}
+
+.cabecalho-menu a:hover {
+    color: #FF6347;
+}
+
+
+.cabecalho .cabecalho-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-top: 80px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+section{
+    padding-top: 60px; 
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    justify-content: space-between;
+    background: linear-gradient(to right, #f5faff, #ffffff);
+
+}
+
+.conteudo-principal-intro{
+    gap: 10px;
+}
+
+
+.intro{
+    border-radius: 100px;
+}
+
+.titulo{
+    font-size: 80px;
+    color: #1f2958;
+}
+
+.text{
+    width: 600px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.titulo-parte2{
+    font-size: 50px;
+    color: #1f2958;
+}
+
+.conteudo-secundario{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.conteudo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.topico{
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #ccceff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+    max-width: 350px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.topico img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+}
+
+.topico h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #1f2958;
+    font-size: x-large;
+}
+
+.topico p {
+    font-size: 1rem;
+    font-style: italic;
+    color: #000;
+}
+
+.topico:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.conteudo3_4{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+}
+
+.conteudo3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    border-right: 2px solid #1f2958;
+    padding-right: 80px;
+}
+
+.conteudo4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap:25px;
+}
+
+.conteudo3 h1{
+    color: #1f2958;
+    font-size: 45px;
+}
+
+.conteudo4 h1{
+    color: #1f2958;
+    font-size: 40px;
+}
+
+.conteudo4 p{
+    width: 600px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.rodape h2{
+    color: #1f2958;
+    font-size: 30px;
+}
+
+.rodape a{
+    color: #1f2958;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 15px 0 10px;
+}
+
+.rodape nav{
+    display: flex;
+    justify-content: space-around;
+    width:40vh;
+}
+
+.final{
+    height: 70px;
+    background-color: #FFFAFA;
+    width: 100%;
+    align-items: center;
+}
