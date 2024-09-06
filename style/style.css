@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url(./style_curos.css);
+@import url(./resposive.css);
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+}
+
+.nav-list ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 15px;
 }
 
 .cabecalho{
@@ -16,7 +29,7 @@
     width: 100%;
     background-color: #fff;
     color: black;
-    padding: 10px 0;
+    padding: 1.5rem 6rem;
     text-align: center;
     z-index: 1000;
     display: flex;
@@ -260,4 +273,38 @@ body{
     background-color: #FFFAFA;
     width: 100%;
     align-items: center;
+}
+
+.cabecalho_mobile_icon{
+    display: none;
+}
+
+.cabecalho_mobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .cabecalho{
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+
+    .cabecalho_mobile_icon{
+        display: block;
+    }
+
+    .cabecalho_mobile_icon button{
+        background-color: transparent;
+        color: #000;
+        border:none;
+    }
+
+    .telefone{
+        display: none;
+    }
+
+
 }

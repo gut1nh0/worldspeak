@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -13,11 +13,13 @@
     <header class="cabecalho">
         <div class="imagem-menu">
             <img class="cabecalho-imagem" src="./images/logo.png" alt="logo" height="200px">
-            <nav class="cabecalho-menu">
-                <a href="#curso" class="menu-conteudo">O Curso</a>
-                <a href="#como-funciona" class="menu-conteudo">Como Funciona</a>
-                <a href="./index_cursos.html" class="menu-conteudo">Comece Agora</a>
-            </nav>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#curso" class="menu-conteudo">O Curso</a></li>
+                    <li class="nav-item"><a href="#como-funciona" class="menu-conteudo">Como Funciona</a></li>
+                    <li class="nav-item"><a href="./index_cursos.html" class="menu-conteudo">Comece Agora</a></li>
+                </ul>
+            </div>
         </div>
         <div class="telefone">
             <i class="fa-solid fa-phone"></i>
@@ -25,9 +27,30 @@
                 <a href="">(15) 99375-3890</a>
             </nav>
         </div>
+
+        <div class="cabecalho_mobile_icon">
+            <button><i class="fa-solid fa-bars" width="450px"></i></button>
+        </div>
+
+        <div class="cabecalho_mobile">
+            <ul>
+                <li class="nav-item"><a href="#curso" class="menu-conteudo">O Curso</a></li>
+                <li class="nav-item"><a href="#como-funciona" class="menu-conteudo">Como Funciona</a></li>
+                <li class="nav-item"><a href="./index_cursos.html" class="menu-conteudo">Comece Agora</a></li>
+            </ul>
+            <div class="telefone">
+                <i class="fa-solid fa-phone"></i>
+                <nav>
+                    <a href="">(15) 99375-3890</a>
+                </nav>
+            </div>
+        </div>
+
+
+
     </header>
     <main class="conteudo">
-        <section class="conteudo-principal" >
+        <section class="conteudo-principal">
             <img class="intro" src="./images/inicial.png" alt="mulher" height="400px">
             <div class="conteudo-principal-intro">
                 <h1 class="titulo"><strong>Bem-vindo à WorldSpeak</strong></h1>
@@ -35,7 +58,7 @@
                     vocabulário e regras gramaticais. Aqui, você embarca em uma jornada de descoberta
                     cultural,crescimento pessoal e oportunidades globais.</p>
             </div>
-        </section >
+        </section>
         <section class="conteudo-secundario" id="curso">
             <h1 class="titulo-parte2">Por que Escolher WorldSpeak?</h1>
             <div class="conteudo2">
@@ -84,15 +107,19 @@
     </main>
     <footer class="rodape">
         <h2>Acompanhe em nossas redes sociais</h2>
-            <nav>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-            </nav>
+        <nav>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </nav>
         <div class="final">
-            <p><center>Todos os direitos reservados a WorldSpeak</center></p>
+            <p>
+                <center>Todos os direitos reservados a WorldSpeak</center>
+            </p>
         </div>
     </footer>
+
+
 </body>
 
 </html>
