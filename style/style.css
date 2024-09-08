@@ -330,4 +330,110 @@ body {
         display: none;
     }
 
+
+    .conteudo-principal{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+    }
+
+    .intro{
+        width: 350px;
+        height: auto;
+        border-radius: none;
+    }
+
+    .conteudo-principal-intro h1{
+        font-size: 50px;
+        
+    }
+
+    .conteudo-principal-intro p{
+        font-size:13px ;
+        width: 350px;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom: 2px solid #1f2958;
+    }
+
+    .titulo-parte2{
+        font-size: 30px;
+        text-align: center;
+        
+    }
+
+    .conteudo-secundario{
+        width: 100%;
+        gap: 30px;
+    }
+
+    .conteudo2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .conteudo3_4{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 40px;
+    }
+
+    .conteudo3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        padding-right: 0;
+        padding-bottom: 20px;
+        border-right: none;
+        border-bottom: 2px solid #1f2958;
+    }
+
+    .conteudo3 h1{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .conteudo3 iframe{
+        width: 300px;
+        height: 300px;
+    }
+
+    .conteudo4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        padding-right: 0;
+        padding-bottom: 20px;
+        border-right: none;
+        border-bottom: 2px solid #1f2958;
+        gap: 0;
+    }
+
+    .conteudo4 h1{
+        text-align: center;
+        font-size: 35px;
+        padding: 0;
+    }
+
+    .conteudo4 video{
+        width: 300px;
+        height: 300px;
+        padding-bottom: 30px;
+    }
+
+    .conteudo4 p{
+        width: 350px;
+    }
+
+    .rodape h2{
+        font-size: 20px;
+        width: 300px;
+        align-items: center;
+        text-align: center;
+    }
 }
