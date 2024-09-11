@@ -1,6 +1,5 @@
-
-.conteudo-planos{
-    display:flex ;
+.conteudo-planos {
+    display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -10,7 +9,7 @@
     padding-bottom: 80px;
 }
 
-.titulo_planos{
+.titulo_planos {
     font-size: 60px;
     color: #1f2958;
     align-items: center;
@@ -18,32 +17,34 @@
     padding: 40px;
 }
 
-.kids, .teen, .adult{
+.kids,
+.teen,
+.adult {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.kids img{
+.kids img {
     margin-left: 30px;
 }
 
-.adult img{
+.adult img {
     margin-left: 50px;
 }
 
-.teen img{
+.teen img {
     margin-left: 20px;
 }
 
 
-.planos{
+.planos {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
 
-.card{
+.card {
     width: 330px;
     padding: 20px;
     border: 3px solid #1f2958;
@@ -52,21 +53,53 @@
     background-color: white;
 }
 
-.card h1{
+.card h1 {
     color: #1f2958;
     font-size: 40px;
 }
 
-.card p{
-    margin-bottom: 20px ;
+.card p {
+    margin-bottom: 20px;
     border-bottom: 2px solid #1f2958;
 }
 
-.card ul{
+.card ul {
     padding-left: 20px;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.05);
     transition: transform 0.3s;
+}
+
+@media screen and (max-width: 745px) {
+
+    .conteudo-planos{
+        width: 100%;
+    }
+
+    .conteudo-planos h1 {
+        align-items: center;
+        font-size: 40px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .conteudo-planos img{
+        
+        display: none;
+    }
+
+    .planos{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 30px;
+        gap: 40px;
+    }
+
+    .
+
 }
